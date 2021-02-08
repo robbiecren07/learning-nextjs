@@ -1,4 +1,5 @@
 import { Tick } from '../../icons';
+import SignupForm from './SignupForm';
 
 const outcomes = [
     "How to build this landing page",
@@ -14,7 +15,7 @@ const ComingSoonBage = () => (
 const Hero = () => {
     return (
     <div className="border border-gray-200 md:flex md:flex-row">
-        <div className="bg-gray-100 text-center md:w-1/3">
+        <div className="bg-gray-100 text-center flex md:w-1/3">
             <img className="mx-auto" alt="image" src="/assets/img_nextjs-101-cover.png" />
         </div>
         <div className="px-4 py-8 md:px-8 self-center md:w-2/3">
@@ -35,6 +36,7 @@ const Hero = () => {
                 </ul>
             )}
             <ComingSoonBage />
+            <SignupForm title="Leave your email below" />
         </div>
     </div>
     );

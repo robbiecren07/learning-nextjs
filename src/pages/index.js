@@ -11,7 +11,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="min-h-screen flex flex-col justify-center">
+      <main className="bg-white p-4">
         <Hero />
         <Link href="/page-two"><a>Go to Page Two</a></Link>
       </main>
